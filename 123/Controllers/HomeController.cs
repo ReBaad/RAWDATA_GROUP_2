@@ -16,6 +16,7 @@ namespace _123.Controllers
         public HomeController(ILogger<HomeController> logger)
         {
             _logger = logger;
+            var hej = 'he';
         }
 
         public IActionResult Index()
